@@ -11,7 +11,7 @@ L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     
     var ratIcon = L.icon({
     iconUrl: 'https://maptimeboston.github.io/leaflet-intro/rat.gif',
-    iconSize: [20,20]
+    iconSize: [50,40]
   }); 
   L.geoJson(data  ,{
     pointToLayer: function(feature,latlng){
